@@ -1,4 +1,4 @@
-package org.cas.student;
+package org.cas.student_management_system.student;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

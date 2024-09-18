@@ -1,4 +1,4 @@
-package org.cas.student;
+package org.cas.student_management_system.student;
 
 import org.springframework.stereotype.Service;
 
