@@ -1,0 +1,10 @@
+insert into Teachers (id, name, email, date_of_birth) values (1, 'Bord MacLise', 'bmaclise0@sohu.com', '1/13/1996');
+insert into Teachers (id, name, email, date_of_birth) values (2, 'Staci Baptista', 'sbaptista1@angelfire.com', '9/15/1995');
+insert into Teachers (id, name, email, date_of_birth) values (3, 'Menard McQuarter', 'mmcquarter2@mail.ru', '11/16/2000');
+insert into Teachers (id, name, email, date_of_birth) values (4, 'Massimiliano Ungerer', 'mungerer3@hibu.com', '2/6/1997');
+insert into Teachers (id, name, email, date_of_birth) values (5, 'Bryana Antonioni', 'bantonioni4@webeden.co.uk', '3/31/1997');
+insert into Teachers (id, name, email, date_of_birth) values (6, 'Estrella O''Gormally', 'eogormally5@soup.io', '3/22/1997');
+insert into Teachers (id, name, email, date_of_birth) values (7, 'Corena Keep', 'ckeep6@paginegialle.it', '2/4/1995');
+insert into Teachers (id, name, email, date_of_birth) values (8, 'Neely Mannakee', 'nmannakee7@tamu.edu', '7/27/1995');
+insert into Teachers (id, name, email, date_of_birth) values (9, 'Chloe Larwood', 'clarwood8@mayoclinic.com', '1/14/1995');
+insert into Teachers (id, name, email, date_of_birth) values (10, 'Tobit Hedingham', 'thedingham9@dell.com', '9/11/1997');

@@ -1,0 +1,10 @@
+INSERT INTO Subjects values ('MATH', 'Mathematics');
+INSERT INTO Subjects values ('PHYS', 'Physics');
+INSERT INTO Subjects values ('CHEM', 'Chemistry');
+INSERT INTO Subjects values ('BIO', 'Biology');
+INSERT INTO Subjects values ('CS', 'Computer Science');
+INSERT INTO Subjects values ('HIST', 'History');
+INSERT INTO Subjects values ('ECON', 'Economics');
+INSERT INTO Subjects values ('PSYCH', 'Phychology');
+INSERT INTO Subjects values ('PHIL', 'Philosophy');
+INSERT INTO Subjects values ('ART', 'Art');
