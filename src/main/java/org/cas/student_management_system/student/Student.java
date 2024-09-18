@@ -1,6 +1,7 @@
 package org.cas.student_management_system.student;
 
 import java.time.LocalDate;
+import java.time.Period;
 
 public class Student {
     private Long id;
@@ -12,7 +13,6 @@ public class Student {
     private Integer age;
 
     public Student() {
-
     }
 
     public Student(Long id, String name, String email, LocalDate dateOfBirth, Integer age) {
@@ -23,6 +23,10 @@ public class Student {
         this.dateOfBirth = dateOfBirth;
     }
 
+    public Student(Long id, String name, String email, LocalDate dateOfBirth) {
+        this(id, name, email, dateOfBirth, currentAge(dateOfBirth));
+    };
+
     public Student(String name, String email, LocalDate dateOfBirth, Integer age) {
         this.name = name;
         this.email = email;
@@ -31,7 +35,7 @@ public class Student {
     }
 
     public Student(String name, String email, LocalDate dateOfBirth) {
-        this(name, email, dateOfBirth, null);
+        this(name, email, dateOfBirth, currentAge(dateOfBirth));
     }
 
     public Long getId() {
@@ -72,5 +76,9 @@ public class Student {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    private static int currentAge(LocalDate dateOfBirth) {
+        return Period.between(dateOfBirth, LocalDate.now()).getYears();
     }
 }
