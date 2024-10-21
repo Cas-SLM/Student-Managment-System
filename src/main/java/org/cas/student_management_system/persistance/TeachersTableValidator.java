@@ -1,12 +1,12 @@
-package org.cas.student_management_system.database;
+package org.cas.student_management_system.persistance;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class StudentsTableValidator extends AbstractTableValidator {
+public class TeachersTableValidator extends AbstractTableValidator {
 
-    public StudentsTableValidator() {
-        super("Students");
+    public TeachersTableValidator() {
+        super("Teachers");
     }
 
     /*@Override

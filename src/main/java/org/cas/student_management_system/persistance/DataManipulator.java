@@ -1,6 +1,5 @@
-package org.cas.student_management_system.database;
+package org.cas.student_management_system.persistance;
 
-import java.sql.Connection;
 import java.sql.SQLException;
 
 public class DataManipulator extends DAO {

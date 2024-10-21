@@ -1,4 +1,4 @@
-package org.cas.student_management_system.student;
+package org.cas.student_management_system.model;
 
 import java.time.LocalDate;
 import java.time.Period;

@@ -1,4 +1,4 @@
-package org.cas.student_management_system.database;
+package org.cas.student_management_system.persistance;
 
 import java.sql.DatabaseMetaData;
 import java.sql.ResultSet;
