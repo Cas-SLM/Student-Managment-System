@@ -6,13 +6,14 @@ import java.time.Period;
 public class Student {
     private Long id;
     private String name;
-    private String firstName;
-    private String lastName;
     private String email;
     private LocalDate dateOfBirth;
     private Integer age;
 
     public Student() {
+    }
+    public Student(int id, String name, String email, LocalDate dateOfBirth, Integer age) {
+        this((long) id, name, email, dateOfBirth, age);
     }
 
     public Student(Long id, String name, String email, LocalDate dateOfBirth, Integer age) {
